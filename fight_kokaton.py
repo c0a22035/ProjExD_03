@@ -172,7 +172,6 @@ def main():
     bombs = [Bomb()for _ in range(NUM_OF_BOMBS)]
     beam = None
     score = Score()  # Scoreインスタンスを生成
-
     clock = pg.time.Clock()
     tmr = 0
     while True:
